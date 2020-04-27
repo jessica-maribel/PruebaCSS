@@ -3,7 +3,7 @@ Contenido
 */
 
 .contenedor {
-    background: #ccc;
+    background: #ffffff;
     width: 90%;
     max-width: 1000px;
     float: none;
@@ -47,6 +47,7 @@ header nav a {
 }
 
 .cuerpo article {
+    background: #ffffff;
     margin-bottom: 15px;
     border-bottom: 15px;
     padding-bottom: 15px;
@@ -60,7 +61,7 @@ aside {
 }
 aside img {
     background: #D0463D;
-    float: rigth;
+
     width: 420px;
     height: 173px;
 }
