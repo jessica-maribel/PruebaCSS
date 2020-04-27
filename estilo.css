@@ -1,6 +1,13 @@
 /*
 Contenido
 */
+
+.contenedor {
+    background: #ccc;
+    width: 90%;
+    max-width: 1000px;
+    float: none;
+}
 body{
     background: #ffffff;
 }
@@ -17,6 +24,8 @@ header {
 header .logo .img {
     width: 30%;
     float: left;
+    width: 309px;
+    height: 126px;
 }
 
 header nav {
@@ -30,4 +39,59 @@ header nav a {
     text-decoration: none;
     text-align: center;
     padding:25px;
+}
+
+.cuerpo {
+    background: #ffffff;
+    padding: 15px;
+}
+
+.cuerpo article {
+    margin-bottom: 15px;
+    border-bottom: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+aside {
+    border: 1px solid #D0463D;
+    float: left;
+  
+}
+aside img {
+    background: #D0463D;
+    float: rigth;
+    width: 420px;
+    height: 173px;
+}
+
+.pie {
+    background:#2B2A3D;
+    width: 100%;
+    padding: 20px;
+    float: none;
+
+}
+
+.pie  .nav_inf {
+    background: #D0463D;
+    float: left;
+}
+
+.pie .nav_inf a {
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pie .social {
+    background: #e67e22;
+}
+
+.pie .social a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+
 }
