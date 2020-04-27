@@ -1,0 +1,33 @@
+/*
+Contenido
+*/
+body{
+    background: #ffffff;
+}
+
+/*
+Encabezado
+*/
+header {
+    background:#2B2A3D;
+    width: 100%;
+    padding: 28px;
+}
+
+header .logo .img {
+    width: 30%;
+    float: left;
+}
+
+header nav {
+   float: left;
+}
+
+header nav a {
+    float: left;
+    color:  #ffffff;
+    background: #D0463D;
+    text-decoration: none;
+    text-align: center;
+    padding:25px;
+}
